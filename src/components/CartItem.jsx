@@ -1,4 +1,4 @@
-import { currencyFormatter } from "../util/formatting";
+import { currencyFormatter } from '../util/formatting.js';
 
 export default function CartItem({
   name,
@@ -14,7 +14,7 @@ export default function CartItem({
       </p>
       <p className="cart-item-actions">
         <button onClick={onDecrease}>-</button>
-        <button>{quantity}</button>
+        <span>{quantity}</span>
         <button onClick={onIncrease}>+</button>
       </p>
     </li>

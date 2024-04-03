@@ -81,6 +81,7 @@ export function CartContextProvider({ children }) {
     items: cart.items,
     addItem,
     removeItem,
+    clearCart,
   };
 
   return (
